@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{06BE43D4-BAB1-41EA-A779-F5FCAA1B9AF6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Speed.My.MyApplication</StartupObject>
+    <RootNamespace>Speed</RootNamespace>
+    <AssemblyName>Speed</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Speed.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Speed.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardBoardBG.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card2C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card2D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card2H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card2S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card3C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card3D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card3H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card3S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card4C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card4D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card4H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card4S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card5C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card5D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card5H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card5S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card6C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card6D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card6H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card6S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card7C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card7D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card7H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card7S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card8C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card8D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card8H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card8S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card9C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card9D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card9H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card9S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card10C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card10D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card10H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card10S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardAC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardAD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardAH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cardblue_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardJC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardJD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardJH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardJS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardKC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardKD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardKH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardKS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardQC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardQD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardQH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardQS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shuffling Cards Sound Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DealingCard.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueBG.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PurpleBG.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timerBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_354762340_oC8HSXXCTQnmZ6NUuxs6IO0jGp7WyJ1c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3106484.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WinSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameWon.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopWatch.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
