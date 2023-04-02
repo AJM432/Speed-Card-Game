@@ -1,0 +1,9 @@
+Z:\Speed\bin\Debug\Speed.exe
+Z:\Speed\bin\Debug\Speed.pdb
+Z:\Speed\bin\Debug\Speed.xml
+Z:\Speed\obj\x86\Debug\Speed.frmSpeed.resources
+Z:\Speed\obj\x86\Debug\Speed.Resources.resources
+Z:\Speed\obj\x86\Debug\Speed.vbproj.GenerateResource.Cache
+Z:\Speed\obj\x86\Debug\Speed.exe
+Z:\Speed\obj\x86\Debug\Speed.xml
+Z:\Speed\obj\x86\Debug\Speed.pdb
